@@ -1,0 +1,18 @@
+{
+    "identify_missing_values": {
+        "description": "Identify missing values in specified columns.",
+        "function": "identify_missing_values"
+    },
+    "identify_duplicate_rows": {
+        "description": "Identify duplicate rows based on specified columns.",
+        "function": "identify_duplicate_rows"
+    },
+    "check_units": {
+        "description": "Identify units in specified columns.",
+        "function": "check_units"
+    },
+    "check_column_limit": {
+        "description": "Identify column limit",
+        "function": "check_column_limit"
+    }
+}

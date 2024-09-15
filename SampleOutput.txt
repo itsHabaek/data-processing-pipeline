@@ -1,0 +1,258 @@
+{
+    "check_column_limit": {
+        "column_count": 9,
+        "warning_message": ""
+    },
+    "check_units": {
+        "missing_units": {
+            "Cost": "Unit specified: Rs",
+            "Weight": "Unit specified: kg"
+        }
+    },
+    "identify_duplicate_rows": {
+        "duplicate_rows": [
+            {
+                "Age": 30.0,
+                "Cost": "10Rs",
+                "Email": "jane.smith@email.com",
+                "Gender": "F",
+                "ID": 2.0,
+                "Join_Date": "01-02-2022",
+                "Last_Login": "10-02-2022",
+                "Name": "Jane Smith",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 35.0,
+                "Cost": "10Rs",
+                "Email": NaN,
+                "Gender": "M",
+                "ID": 5.0,
+                "Join_Date": "30-01-2022",
+                "Last_Login": "06-02-2022",
+                "Name": "Charlie Wilson",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 25.0,
+                "Cost": "10Rs",
+                "Email": NaN,
+                "Gender": "M",
+                "ID": 7.0,
+                "Join_Date": "15-01-2022",
+                "Last_Login": "05-02-2022",
+                "Name": "John Doe",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 30.0,
+                "Cost": "10Rs",
+                "Email": "jane.smith@email.com",
+                "Gender": "F",
+                "ID": 8.0,
+                "Join_Date": "01-02-2022",
+                "Last_Login": "10-02-2022",
+                "Name": "Jane Smith",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 30.0,
+                "Cost": "10Rs",
+                "Email": "jane.smith@email.com",
+                "Gender": "F",
+                "ID": 8.0,
+                "Join_Date": "01-02-2022",
+                "Last_Login": "10-02-2022",
+                "Name": "Jane Smith",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 33.0,
+                "Cost": "10Rs",
+                "Email": NaN,
+                "Gender": "Male",
+                "ID": 9.0,
+                "Join_Date": "20-01-2022",
+                "Last_Login": "03-02-2022",
+                "Name": NaN,
+                "Weight": "5kg"
+            },
+            {
+                "Age": 28.0,
+                "Cost": "10Rs",
+                "Email": "someone@email.com",
+                "Gender": "M",
+                "ID": 14.0,
+                "Join_Date": "01-02-2022",
+                "Last_Login": "10-02-2022",
+                "Name": "Ryan Taylor",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 36.0,
+                "Cost": "10Rs",
+                "Email": "someone@email.com",
+                "Gender": "F",
+                "ID": 15.0,
+                "Join_Date": "25-01-2022",
+                "Last_Login": "08-02-2022",
+                "Name": "Lisa Brown",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 30.0,
+                "Cost": "10Rs",
+                "Email": "invalid.email",
+                "Gender": "Male",
+                "ID": 16.0,
+                "Join_Date": "30-01-2022",
+                "Last_Login": "06-02-2022",
+                "Name": NaN,
+                "Weight": "5kg"
+            },
+            {
+                "Age": 32.0,
+                "Cost": "10Rs",
+                "Email": "invalid.email",
+                "Gender": "M",
+                "ID": 18.0,
+                "Join_Date": "20-01-2022",
+                "Last_Login": "03-02-2022",
+                "Name": "Andrew Wilson",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 33.0,
+                "Cost": "10Rs",
+                "Email": NaN,
+                "Gender": "M",
+                "ID": 20.0,
+                "Join_Date": "30-01-2022",
+                "Last_Login": "06-02-2022",
+                "Name": "Matt Smith",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 29.0,
+                "Cost": "10Rs",
+                "Email": "grace.lee@email.com",
+                "Gender": "F",
+                "ID": 21.0,
+                "Join_Date": "05-02-2022",
+                "Last_Login": "04-02-2022",
+                "Name": "Grace Lee",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 29.0,
+                "Cost": "10Rs",
+                "Email": "grace.lee@email.com",
+                "Gender": "F",
+                "ID": 21.0,
+                "Join_Date": "05-02-2022",
+                "Last_Login": "04-02-2022",
+                "Name": "Grace Lee",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 29.0,
+                "Cost": "10Rs",
+                "Email": "l.garcia@email.com",
+                "Gender": "M",
+                "ID": 43.0,
+                "Join_Date": "1/25/2022",
+                "Last_Login": "08-02-2022",
+                "Name": "Liam Garcia",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 33.0,
+                "Cost": "10Rs",
+                "Email": "l.garcia@email.com",
+                "Gender": "M",
+                "ID": 67.0,
+                "Join_Date": "25-01-2022",
+                "Last_Login": "08-02-2022",
+                "Name": "Liam Garcia",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 29.0,
+                "Cost": "10Rs",
+                "Email": "ava.l@email.com",
+                "Gender": "F",
+                "ID": 84.0,
+                "Join_Date": "20-01-2022",
+                "Last_Login": "03-02-2022",
+                "Name": "Ava Lee",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 35.0,
+                "Cost": "10Rs",
+                "Email": "logan.t@email.com",
+                "Gender": "M",
+                "ID": 85.0,
+                "Join_Date": "25-01-2022",
+                "Last_Login": "08-02-2022",
+                "Name": "Logan Taylor",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 31.0,
+                "Cost": "10Rs",
+                "Email": "zoe.m@email.com",
+                "Gender": "F",
+                "ID": 86.0,
+                "Join_Date": "30-01-2022",
+                "Last_Login": "06-02-2022",
+                "Name": "Zoe Miller",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 34.0,
+                "Cost": "10Rs",
+                "Email": "logan.t@email.com",
+                "Gender": "M",
+                "ID": 93.0,
+                "Join_Date": "05-02-2022",
+                "Last_Login": "04-02-2022",
+                "Name": "Logan Taylor",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 27.0,
+                "Cost": "10Rs",
+                "Email": "zoe.m@email.com",
+                "Gender": "F",
+                "ID": 94.0,
+                "Join_Date": "15-01-2022",
+                "Last_Login": "05-02-2022",
+                "Name": "Zoe Miller",
+                "Weight": "5kg"
+            },
+            {
+                "Age": 33.0,
+                "Cost": "10Rs",
+                "Email": "ava.l@email.com",
+                "Gender": "F",
+                "ID": 100.0,
+                "Join_Date": "15-01-2022",
+                "Last_Login": "05-02-2022",
+                "Name": "Ava Lee",
+                "Weight": "5kg"
+            }
+        ],
+        "total_duplicates": 21
+    },
+    "identify_missing_values": {
+        "Email": {
+            "missing_percentage": 3.9215686274509802,
+            "status": "Exceeds threshold"
+        },
+        "Name": {
+            "missing_percentage": 2.941176470588235,
+            "status": "Within threshold"
+        }
+    }
+}

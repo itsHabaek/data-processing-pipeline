@@ -1,0 +1,21 @@
+{
+    "tasks": ["identify_missing_values", "identify_duplicate_rows","check_units","check_column_limit"],
+    "file_path": "Assignment Task _ Dataset - Sheet1.csv",
+    "identify_missing_values_params": {
+        "columns": ["Email", "Name"],
+        "thresholds": {
+            "Email": 0,
+            "Name": 10
+        }
+    },
+    "identify_duplicate_rows_params": {
+        "columns": ["Email"]
+    },
+     "check_units_params": {
+        "columns": ["Weight", "Cost"],
+        "unit_info": {
+            "Weight": "kg",
+            "Cost": "Rs"
+        }
+    }
+}
